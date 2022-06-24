@@ -12,6 +12,6 @@ public:
     FiguraGeometrica();
     ~FiguraGeometrica();
 
-    virtual void Draw(Sculptor &t);
+    virtual void Draw(Sculptor &t)=0;
 };
 #endif // FIGURAGEOMETRICA_H

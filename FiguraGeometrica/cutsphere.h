@@ -7,6 +7,7 @@ class CutSphere : public FiguraGeometrica
 {
 private:
     int xcenter, ycenter, zcenter, radius;
+     int nx, ny, nz;
 public:
     CutSphere();
     void Draw (Sculptor &t);

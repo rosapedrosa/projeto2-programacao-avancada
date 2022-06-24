@@ -7,6 +7,7 @@ class CutEllipsoid : public FiguraGeometrica
 {
 public:
     int xcenter, ycenter, zcenter, rx, ry, rz;
+     int nx, ny, nz;
 public:
     CutEllipsoid();
     void Draw (Sculptor &t);
